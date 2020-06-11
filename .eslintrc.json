@@ -1,0 +1,23 @@
+{
+  "env": {
+    "es6": true,
+    "jest": true
+  },
+  "plugins": [
+    "prettier",
+    "jest"
+  ],
+  "parserOptions": {
+    "ecmaVersion": 6,
+    "sourceType": "module"
+  },
+  "extends": [
+    "eslint:recommended",
+    "prettier",
+    "plugin:import/errors",
+    "plugin:import/warnings"
+  ],
+  "globals": {
+    "expect": true
+  }
+}
