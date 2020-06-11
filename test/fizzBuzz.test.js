@@ -1,4 +1,4 @@
-import { fizzBuzz } from '../src/fizzBuzz.js'
+import { calculateNumber } from '../src/fizzBuzz.js'
 describe('Kata Fizz Buzz', () => {
   it('Si el número no es múltiplo de 3 ni de 5, devuelve el mismo número', () => {
     const outputFizzBuzz = calculateNumber(4)
@@ -6,7 +6,3 @@ describe('Kata Fizz Buzz', () => {
     expect(outputFizzBuzz).toBe(4)
   })
 })
-
-function calculateNumber() {
-  return 4
-}
