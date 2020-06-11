@@ -4,10 +4,10 @@ describe('Kata Fizz Buzz', () => {
     //Arrange
 
     //Act
-    const outputFB = fizzBuzz()
+    const outputFizzBuzz = fizzBuzz()
 
     //Assert
-    expect(outputFB[0]).toBe('1')
+    expect(outputFizzBuzz[0]).toBe('1')
   })
 })
 
