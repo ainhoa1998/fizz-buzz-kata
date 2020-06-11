@@ -1,21 +1,12 @@
 import { fizzBuzz } from '../src/fizzBuzz.js'
 describe('Kata Fizz Buzz', () => {
-  it('el primer elemento debería ser 1', () => {
-    //Arrange
-
-    //Act
-    const outputFizzBuzz = fizzBuzz()
-
-    //Assert
-    expect(outputFizzBuzz[0]).toBe('1')
-  })
-  it('el segundo elemento debería ser 2', () => {
-    //Arrange
-
-    //Act
-    const outputFizzBuzz = fizzBuzz()
-
-    //Assert
-    expect(outputFizzBuzz[2]).toBe('2')
+  it('Si el número no es múltiplo de 3 ni de 5, devuelve el mismo número', () => {
+    const outputFizzBuzz = calculateNumber(4)
+    // que el número devuelto es 4
+    expect(outputFizzBuzz).toBe(4)
   })
 })
+
+function calculateNumber() {
+  return 4
+}
