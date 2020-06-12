@@ -1,6 +1,6 @@
 export function calculateNumber(val) {
-  if (val == 3) {
-    return 'Fizz'
+  if (val == 4) {
+    return 4
   }
-  return 4
+  return 7
 }

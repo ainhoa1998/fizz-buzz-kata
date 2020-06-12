@@ -5,4 +5,9 @@ describe('Kata Fizz Buzz', () => {
     // que el número devuelto es 4
     expect(outputFizzBuzz).toBe(4)
   })
+  it('Si el número no es múltiplo de 3 ni de 5, devuelve el mismo número', () => {
+    const outputFizzBuzz = calculateNumber(7)
+    // que el número devuelto es 4
+    expect(outputFizzBuzz).toBe(7)
+  })
 })
