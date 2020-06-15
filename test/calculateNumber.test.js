@@ -54,4 +54,10 @@ describe('Calculate number', () => {
 
     expect(output).toBe('Buzz')
   })
+
+  it('Si el número es 15, devuelve FizzBuzz', () => {
+    const output = calculateNumber(15)
+
+    expect(output).toBe('FizzBuzz')
+  })
 })
