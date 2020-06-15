@@ -1,9 +1,5 @@
 export function calculateNumber(number) {
-  if (number === 5) {
-    return 'Buzz'
-  }
-
-  if (number === 10) {
+  if (number === 5 || number === 10) {
     return 'Buzz'
   }
 
