@@ -1,7 +1,7 @@
 import { calculateNumber } from '../src/calculateNumber.js'
 
 describe('Kata Fizz Buzz', () => {
-  it('Si el número no es múltiplo de 3 ni de 5, devuelve el mismo número', () => {
+  it('Si el número es 4, devuelve 4', () => {
     const output = calculateNumber(4)
 
     expect(output).toBe(4)
