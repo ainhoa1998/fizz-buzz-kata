@@ -1,9 +1,5 @@
 export function calculateNumber(number) {
-  if (number === 15) {
-    return 'FizzBuzz'
-  }
-
-  if (number === 30) {
+  if (number === 15 || number === 30) {
     return 'FizzBuzz'
   }
 
