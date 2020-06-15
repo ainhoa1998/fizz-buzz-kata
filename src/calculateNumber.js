@@ -1,11 +1,12 @@
 export function calculateNumber(number) {
   const multiplo3 = number % 3 === 0
+  const multiplo5 = number % 5 === 0
 
-  if (multiplo3 && number % 5 === 0) {
+  if (multiplo3 && multiplo5) {
     return 'FizzBuzz'
   }
 
-  if (number % 5 === 0) {
+  if (multiplo5) {
     return 'Buzz'
   }
 
