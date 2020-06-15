@@ -42,4 +42,10 @@ describe('Calculate number', () => {
 
     expect(output).toBe('Buzz')
   })
+
+  it('Si el número es 10, devuelve Buzz', () => {
+    const output = calculateNumber(10)
+
+    expect(output).toBe('Buzz')
+  })
 })

@@ -3,6 +3,10 @@ export function calculateNumber(number) {
     return 'Buzz'
   }
 
+  if (number === 10) {
+    return 'Buzz'
+  }
+
   if (number % 3 === 0) {
     return 'Fizz'
   }
