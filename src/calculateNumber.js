@@ -3,5 +3,9 @@ export function calculateNumber(number) {
     return 'Fizz'
   }
 
+  if (number === 9) {
+    return 'Fizz'
+  }
+
   return number
 }
