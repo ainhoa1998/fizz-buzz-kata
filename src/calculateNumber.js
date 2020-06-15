@@ -1,5 +1,7 @@
 export function calculateNumber(number) {
-  if (number % 3 === 0 && number % 5 === 0) {
+  const multiplo3 = number % 3 === 0
+
+  if (multiplo3 && number % 5 === 0) {
     return 'FizzBuzz'
   }
 
@@ -7,7 +9,7 @@ export function calculateNumber(number) {
     return 'Buzz'
   }
 
-  if (number % 3 === 0) {
+  if (multiplo3) {
     return 'Fizz'
   }
 
