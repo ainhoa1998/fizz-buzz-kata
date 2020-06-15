@@ -1,9 +1,5 @@
 export function calculateNumber(number) {
-  if (number === 3 || number === 6) {
-    return 'Fizz'
-  }
-
-  if (number === 9) {
+  if (number % 3 === 0) {
     return 'Fizz'
   }
 
